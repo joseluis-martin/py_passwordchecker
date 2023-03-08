@@ -30,5 +30,5 @@ def main(args):
         else:
             print('Everything is ok!')
                   
-
-main(sys.argv[1:])
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))
